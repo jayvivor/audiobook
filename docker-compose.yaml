@@ -1,0 +1,9 @@
+services:
+    audiobook:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: audiobook_container
+        stdin_open: true
+        tty: true
+        command: /bin/bash

@@ -1,0 +1,4 @@
+spec: inworld  # Required
+voice: Dennis
+api_key_var: INWORLD_API_KEY
+model: inworld-tts-1-max

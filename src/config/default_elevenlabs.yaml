@@ -1,0 +1,4 @@
+spec: elevenlabs  # Required
+voice: RILOU7YmBhvwJGDGjNmP
+api_key_var: ELEVENLABS_API_KEY
+model: eleven_flash_v2_5
