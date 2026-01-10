@@ -15,15 +15,3 @@ COPY src/python/ .
 
 # Command to run the application
 CMD ["python", "main.py"]
-
-version: '3.8'
-
-services:
-    audiobook:
-        build:
-            context: .
-            dockerfile: Dockerfile
-        container_name: audiobook_container
-        stdin_open: true
-        tty: true
-        command: /bin/bash
